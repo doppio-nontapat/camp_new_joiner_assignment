@@ -27,10 +27,10 @@ Click ok success button
     Seleniumlibrary.Click element  ${payment_locator.btn_ok}  
 
 Get order id 
-    ${order_text}    Seleniumlibrary.Get Text    ${payment_locator.order_des}  
-    ${split_text}    String.Split String    ${order_text}    ORDER ID:
-    ${order_info}    String.Strip String    ${split_text}[1]
-    ${order_id}      String.Split String    ${order_info}    
+    ${order_text}    Seleniumlibrary.Get text    ${payment_locator.order_des}  
+    ${split_text}    String.Split string    ${order_text}    ORDER ID:
+    ${order_info}    String.Strip string    ${split_text}[1]
+    ${order_id}      String.Split string    ${order_info}    
     [Return]         ${order_id}[0]
 
 Click continue shopping button
