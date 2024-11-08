@@ -1,13 +1,10 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Print Fruits 
+Print fruits 
     [Arguments]        @{fruits}
     FOR    ${fruit}    IN    @{fruits}
-        BuiltIn.Log To Console    ${fruit}
+        Builtin.Log to console    ${fruit}
     END
 
 *** Test Cases ***
-Test Print List 
-    Print Fruits       apple    banana    cherry
+Test print list 
+    Print fruits       apple    banana    cherry

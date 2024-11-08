@@ -1,13 +1,11 @@
 *** Settings ***
-Library    SeleniumLibrary
-Suite Teardown     BuiltIn.Log To Console     Suite Teardown is running
-*** Variables ***
+Suite Teardown     Builtin.Log to console     Suite Teardown is running
 *** Keywords ***
-Keyword With Teardown
-    [Teardown]    BuiltIn.Log To Console    Keyword Teardown is running
-    BuiltIn.Log To Console    Running the keyword
+Keyword with teardown
+    [Teardown]    Builtin.Log to console    Keyword Teardown is running
+    Builtin.Log to console    Running the keyword
 *** Test Cases ***
 Test Case With Teardown
-    [Teardown]    BuiltIn.Log To Console    Test Case Teardown is running
-    BuiltIn.Log To Console    Running the test
-    Keyword With Teardown
+    [Teardown]    Builtin.Log to console    Test Case Teardown is running
+    Builtin.Log to console    Running the test
+    Keyword with teardown

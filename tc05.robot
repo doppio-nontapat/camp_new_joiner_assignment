@@ -1,12 +1,9 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Print All Items
+Print all items
     [Arguments]    @{items}
     FOR    ${item}    IN    @{items}
-        BuiltIn.Log To Console    ${item}
+        Builtin.Log to console    ${item}
     END
 *** Test Cases ***
-Test Print All Items
-    Print All Items    apple    banana    cherry    grape    orange
+Test print all items
+    Print all items    apple    banana    cherry    grape    orange

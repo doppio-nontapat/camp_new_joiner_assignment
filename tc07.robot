@@ -1,10 +1,7 @@
 *** Settings ***
-Library    SeleniumLibrary
 Variables    variables.yaml
-*** Variables ***
-*** Keywords ***
 *** Test Cases ***
-Test Variables yaml
-    BuiltIn.Log To Console    ${user.name}
-    BuiltIn.Log To Console    ${user.age}
-    BuiltIn.Log To Console    ${user.city}
+Test variables yaml
+    Builtin.Log to console    ${tc07_user_data.name}
+    Builtin.Log to console    ${tc07_user_data.age}
+    Builtin.Log to console    ${tc07_user_data.city}

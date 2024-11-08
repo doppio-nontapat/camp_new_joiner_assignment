@@ -1,12 +1,9 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Keyword Local Variable
-    Set Local Variable    ${LOCAL_VAR}    Local Value
-    BuiltIn.Log To Console    ${LOCAL_VAR}
+Keyword local variable
+    Set local variable    ${LOCAL_VAR}    Local Value
+    Builtin.Log to console    ${LOCAL_VAR}
 *** Test Cases ***
-Test Global Variable
-    Set Global Variable    ${GLOBAL_VAR}    Global Value
-    BuiltIn.Log To Console    ${GLOBAL_VAR}
-    Keyword Local Variable
+Test global variable
+    Set global variable    ${GLOBAL_VAR}    Global Value
+    Builtin.Log to console    ${GLOBAL_VAR}
+    Keyword local variable

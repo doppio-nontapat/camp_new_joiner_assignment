@@ -1,12 +1,9 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Print User Info
+Print user info
     [Arguments]    &{user_info}
-    BuiltIn.Log To Console    Name: ${user_info["name"]}
-    BuiltIn.Log To Console    Age: ${user_info["age"]}
-    BuiltIn.Log To Console    City: ${user_info["city"]}
+    Builtin.Log to console    Name: ${user_info["name"]}
+    Builtin.Log to console    Age: ${user_info["age"]}
+    Builtin.Log to console    City: ${user_info["city"]}
 *** Test Cases ***
-Test Print User Info    
-    Print User Info    name=Non    age=24    city=newyork
+Test print user info    
+    Print user info    name=Non    age=24    city=newyork

@@ -1,10 +1,6 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
-*** Keywords ***
 *** Test Cases ***
-Print Fruit List
-    @{fruits}     Create List     apple     banana     cherry
+Print fruit list
+    @{fruits}     Builtin.Create list     apple     banana     cherry
     FOR     ${fruit}     IN     @{fruits}
-        BuiltIn.Log To Console    ${fruit}
+        Builtin.Log to console    ${fruit}
     END

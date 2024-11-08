@@ -1,13 +1,10 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Calculate Square
+Calculate square
     [Arguments]    ${number}
-    ${result}    Evaluate    ${number}*${number}
-    ${result}    Convert To String    ${result}
+    ${result}    Builtin.Evaluate    ${number}*${number}
+    ${result}    Builtin.Convert to string    ${result}
     [Return]    ${result}
 *** Test Cases ***
-Test Return Scalar
-    ${square}    Calculate Square     4
-    BuiltIn.Should Be Equal    ${square}    16
+Test return scalar
+    ${square}    Calculate square     4
+    Builtin.Should be equal    ${square}    16

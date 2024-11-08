@@ -1,17 +1,14 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Validate Age    
+Validate age    
         [Arguments]            ${age}
         IF    ${age} > 18
-            BuiltIn.Log To Console    Eligible for voting
+            Builtin.Log to console    Eligible for voting
         ELSE
-            BuiltIn.Log To Console    Not eligible for voting
+            Builtin.Log to console    Not eligible for voting
         END
 *** Test Cases ***
-Test If 16
-        Validate Age        16
+Test if 16
+        Validate age        16
 
-Test If 20
-        Validate Age        20
+Test if 20
+        Validate age        20

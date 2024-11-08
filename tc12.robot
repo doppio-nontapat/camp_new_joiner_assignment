@@ -1,14 +1,10 @@
-*** Settings ***
-Library    SeleniumLibrary
-*** Variables ***
-*** Keywords ***
 *** Test Cases ***
-Age Verification
-    ${age}    Set Variable    20
+Age verification
+    ${age}    Builtin.Set variable    20
     IF    ${age} > 18
-        BuiltIn.Log To Console    You are an adult
+        Builtin.Log to console    You are an adult
     ELSE IF    ${age} == 18
-        BuiltIn.Log To Console    You just became an adult
+        Builtin.Log to console    You just became an adult
     ELSE
-        BuiltIn.Log To Console    You are underage
+        Builtin.Log to console    You are underage
     END
