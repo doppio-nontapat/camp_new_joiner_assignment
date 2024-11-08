@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Keywords ***
 Print all items
     [Arguments]    @{items}

@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Keywords ***
 Greet user
     [Arguments]    ${name}=Guest

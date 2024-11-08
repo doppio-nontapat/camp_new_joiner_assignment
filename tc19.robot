@@ -1,5 +1,4 @@
 *** Settings ***
-Library    SeleniumLibrary
 Suite Teardown     Builtin.Log to console     Suite Teardown is running
 *** Keywords ***
 Keyword with teardown

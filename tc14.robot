@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Test Cases ***
 Loop Control Example
     FOR    ${number}    IN RANGE    1    10

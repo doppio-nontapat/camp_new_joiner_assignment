@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Keywords ***
 Print user info
     [Arguments]    &{user_info}

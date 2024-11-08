@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Test Cases ***
 Print fruit list
     @{fruits}     Builtin.Create list     apple     banana     cherry

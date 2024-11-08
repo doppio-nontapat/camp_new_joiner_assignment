@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Keywords ***
 Keyword local variable
     Set local variable    ${LOCAL_VAR}    Local Value

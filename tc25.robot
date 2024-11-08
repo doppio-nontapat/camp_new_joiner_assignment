@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Test Cases ***
 Parallel Test 1 
     Builtin.log     Running Test 1

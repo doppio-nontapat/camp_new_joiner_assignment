@@ -1,5 +1,4 @@
 *** Settings ***
-Library    SeleniumLibrary
 Suite Setup    Builtin.Log to console     Suite is starting
 Suite Teardown     Builtin.Log to console     Suite is ending
 *** Test Cases ***

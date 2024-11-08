@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Test Cases ***
 Age verification
     ${age}    Builtin.Set variable    20

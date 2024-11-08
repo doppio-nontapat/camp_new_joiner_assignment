@@ -1,5 +1,4 @@
 *** Settings ***
-Library    SeleniumLibrary
 Variables    variables.yaml
 *** Test Cases ***
 Test variables yaml

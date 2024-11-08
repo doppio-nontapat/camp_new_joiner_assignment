@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Keywords ***
 Create fruit list
     ${fruits}     Builtin.Create list     apple    banana    cherry

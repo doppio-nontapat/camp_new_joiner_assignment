@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Keywords ***
 Create user info
     ${user_info}     Builtin.Create dictionary     name=John     age=30     city=Bangkok

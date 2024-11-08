@@ -1,5 +1,3 @@
-*** Settings ***
-Library    SeleniumLibrary
 *** Test Cases ***
 Test With Tag 1
     [Tags]    smoke     
