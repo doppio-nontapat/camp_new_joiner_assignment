@@ -1,215 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-11-08T09:36:05.132579" rpa="false" schemaversion="5">
-<suite id="s1" name="Tc16" source="C:\Users\non17\OneDrive\เดสก์ท็อป\assingment basic\tc16.robot">
-<test id="s1-t1" name="Test Factorial Calculation" line="15">
-<kw name="Calculate Factorial">
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-11-08T14:56:48.530959" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc16" source="D:\camp_new_joiner_assignment\tc16.robot">
+<test id="s1-t1" name="Test Factorial Calculation" line="13">
+<kw name="Calculate factorial">
 <kw name="Convert To Integer" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.395161" level="INFO">${number} = 5</msg>
+<msg time="2024-11-08T14:56:48.884676" level="INFO">${number} = 5</msg>
 <var>${number}</var>
 <arg>${number}</arg>
 <doc>Converts the given item to an integer number.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.394914" elapsed="0.000282"/>
+<status status="PASS" start="2024-11-08T14:56:48.884266" elapsed="0.000484"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <arg>${number} == 1</arg>
 <arg>BuiltIn.Return From Keyword</arg>
 <arg>1</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.395567" elapsed="0.000181"/>
+<status status="PASS" start="2024-11-08T14:56:48.885030" elapsed="0.000208"/>
 </kw>
-<kw name="Calculate Factorial">
+<kw name="Calculate factorial">
 <kw name="Convert To Integer" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.396634" level="INFO">${number} = 4</msg>
+<msg time="2024-11-08T14:56:48.886609" level="INFO">${number} = 4</msg>
 <var>${number}</var>
 <arg>${number}</arg>
 <doc>Converts the given item to an integer number.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.396461" elapsed="0.000200"/>
+<status status="PASS" start="2024-11-08T14:56:48.886296" elapsed="0.000363"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <arg>${number} == 1</arg>
 <arg>BuiltIn.Return From Keyword</arg>
 <arg>1</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.396765" elapsed="0.000131"/>
+<status status="PASS" start="2024-11-08T14:56:48.886783" elapsed="0.000311"/>
 </kw>
-<kw name="Calculate Factorial">
+<kw name="Calculate factorial">
 <kw name="Convert To Integer" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.397671" level="INFO">${number} = 3</msg>
+<msg time="2024-11-08T14:56:48.888228" level="INFO">${number} = 3</msg>
 <var>${number}</var>
 <arg>${number}</arg>
 <doc>Converts the given item to an integer number.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.397512" elapsed="0.000184"/>
+<status status="PASS" start="2024-11-08T14:56:48.888027" elapsed="0.000226"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <arg>${number} == 1</arg>
 <arg>BuiltIn.Return From Keyword</arg>
 <arg>1</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.397794" elapsed="0.000135"/>
+<status status="PASS" start="2024-11-08T14:56:48.888897" elapsed="0.000195"/>
 </kw>
-<kw name="Calculate Factorial">
+<kw name="Calculate factorial">
 <kw name="Convert To Integer" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.398666" level="INFO">${number} = 2</msg>
+<msg time="2024-11-08T14:56:48.891033" level="INFO">${number} = 2</msg>
 <var>${number}</var>
 <arg>${number}</arg>
 <doc>Converts the given item to an integer number.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.398516" elapsed="0.000174"/>
+<status status="PASS" start="2024-11-08T14:56:48.890569" elapsed="0.000597"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <arg>${number} == 1</arg>
 <arg>BuiltIn.Return From Keyword</arg>
 <arg>1</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.398796" elapsed="0.000130"/>
+<status status="PASS" start="2024-11-08T14:56:48.891470" elapsed="0.000253"/>
 </kw>
-<kw name="Calculate Factorial">
+<kw name="Calculate factorial">
 <kw name="Convert To Integer" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.399675" level="INFO">${number} = 1</msg>
+<msg time="2024-11-08T14:56:48.893890" level="INFO">${number} = 1</msg>
 <var>${number}</var>
 <arg>${number}</arg>
 <doc>Converts the given item to an integer number.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.399522" elapsed="0.000178"/>
+<status status="PASS" start="2024-11-08T14:56:48.893540" elapsed="0.000424"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <kw name="Return From Keyword" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.400073" level="INFO">Returning from the enclosing user keyword.</msg>
+<msg time="2024-11-08T14:56:48.895011" level="INFO">Returning from the enclosing user keyword.</msg>
 <arg>1</arg>
 <doc>Returns from the enclosing user keyword.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.399998" elapsed="0.000142"/>
+<status status="PASS" start="2024-11-08T14:56:48.894830" elapsed="0.000363"/>
 </kw>
 <arg>${number} == 1</arg>
 <arg>BuiltIn.Return From Keyword</arg>
 <arg>1</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.399810" elapsed="0.000388"/>
+<status status="PASS" start="2024-11-08T14:56:48.894293" elapsed="0.001034"/>
 </kw>
-<kw name="Calculate Factorial">
+<kw name="Calculate factorial">
 <var>${previous}</var>
 <arg>${number - 1}</arg>
-<status status="NOT RUN" start="2024-11-08T09:36:05.400334" elapsed="0.000027"/>
+<status status="NOT RUN" start="2024-11-08T14:56:48.895731" elapsed="0.000056"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
 <var>${result}</var>
 <arg>${number} * ${previous}</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2024-11-08T09:36:05.400449" elapsed="0.000024"/>
+<status status="NOT RUN" start="2024-11-08T14:56:48.896011" elapsed="0.000051"/>
 </kw>
 <kw name="Convert To String" owner="BuiltIn">
 <var>${result}</var>
 <arg>${result}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<status status="NOT RUN" start="2024-11-08T09:36:05.400559" elapsed="0.000022"/>
+<status status="NOT RUN" start="2024-11-08T14:56:48.896282" elapsed="0.000070"/>
 </kw>
 <return>
 <value>${result}</value>
-<status status="NOT RUN" start="2024-11-08T09:36:05.400628" elapsed="0.000038"/>
+<status status="NOT RUN" start="2024-11-08T14:56:48.896482" elapsed="0.000057"/>
 </return>
-<msg time="2024-11-08T09:36:05.400766" level="INFO">${previous} = 1</msg>
+<msg time="2024-11-08T14:56:48.896794" level="INFO">${previous} = 1</msg>
 <var>${previous}</var>
 <arg>${number - 1}</arg>
-<status status="PASS" start="2024-11-08T09:36:05.399066" elapsed="0.001724"/>
+<status status="PASS" start="2024-11-08T14:56:48.892196" elapsed="0.004657"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.401085" level="INFO">${result} = 2</msg>
+<msg time="2024-11-08T14:56:48.897550" level="INFO">${result} = 2</msg>
 <var>${result}</var>
 <arg>${number} * ${previous}</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.400879" elapsed="0.000231"/>
+<status status="PASS" start="2024-11-08T14:56:48.897080" elapsed="0.000524"/>
 </kw>
 <kw name="Convert To String" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.401351" level="INFO">${result} = 2</msg>
+<msg time="2024-11-08T14:56:48.898179" level="INFO">${result} = 2</msg>
 <var>${result}</var>
 <arg>${result}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.401202" elapsed="0.000172"/>
+<status status="PASS" start="2024-11-08T14:56:48.897839" elapsed="0.000387"/>
 </kw>
 <return>
 <value>${result}</value>
-<status status="PASS" start="2024-11-08T09:36:05.401425" elapsed="0.000034"/>
+<status status="PASS" start="2024-11-08T14:56:48.898320" elapsed="0.000066"/>
 </return>
-<msg time="2024-11-08T09:36:05.401579" level="INFO">${previous} = 2</msg>
+<msg time="2024-11-08T14:56:48.898671" level="INFO">${previous} = 2</msg>
 <var>${previous}</var>
 <arg>${number - 1}</arg>
-<status status="PASS" start="2024-11-08T09:36:05.398067" elapsed="0.003536"/>
+<status status="PASS" start="2024-11-08T14:56:48.889387" elapsed="0.009329"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.401893" level="INFO">${result} = 6</msg>
+<msg time="2024-11-08T14:56:48.900029" level="INFO">${result} = 6</msg>
 <var>${result}</var>
 <arg>${number} * ${previous}</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.401713" elapsed="0.000213"/>
+<status status="PASS" start="2024-11-08T14:56:48.899107" elapsed="0.001007"/>
 </kw>
 <kw name="Convert To String" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.402192" level="INFO">${result} = 6</msg>
+<msg time="2024-11-08T14:56:48.900853" level="INFO">${result} = 6</msg>
 <var>${result}</var>
 <arg>${result}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.402052" elapsed="0.000163"/>
+<status status="PASS" start="2024-11-08T14:56:48.900468" elapsed="0.000424"/>
 </kw>
 <return>
 <value>${result}</value>
-<status status="PASS" start="2024-11-08T09:36:05.402273" elapsed="0.000030"/>
+<status status="PASS" start="2024-11-08T14:56:48.901002" elapsed="0.000344"/>
 </return>
-<msg time="2024-11-08T09:36:05.402405" level="INFO">${previous} = 6</msg>
+<msg time="2024-11-08T14:56:48.901879" level="INFO">${previous} = 6</msg>
 <var>${previous}</var>
 <arg>${number - 1}</arg>
-<status status="PASS" start="2024-11-08T09:36:05.397047" elapsed="0.005381"/>
+<status status="PASS" start="2024-11-08T14:56:48.887278" elapsed="0.014794"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.402702" level="INFO">${result} = 24</msg>
+<msg time="2024-11-08T14:56:48.903033" level="INFO">${result} = 24</msg>
 <var>${result}</var>
 <arg>${number} * ${previous}</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.402515" elapsed="0.000211"/>
+<status status="PASS" start="2024-11-08T14:56:48.902385" elapsed="0.000718"/>
 </kw>
 <kw name="Convert To String" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.402974" level="INFO">${result} = 24</msg>
+<msg time="2024-11-08T14:56:48.903829" level="INFO">${result} = 24</msg>
 <var>${result}</var>
 <arg>${result}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.402819" elapsed="0.000179"/>
+<status status="PASS" start="2024-11-08T14:56:48.903391" elapsed="0.000515"/>
 </kw>
 <return>
 <value>${result}</value>
-<status status="PASS" start="2024-11-08T09:36:05.403046" elapsed="0.000029"/>
+<status status="PASS" start="2024-11-08T14:56:48.904052" elapsed="0.000084"/>
 </return>
-<msg time="2024-11-08T09:36:05.403186" level="INFO">${previous} = 24</msg>
+<msg time="2024-11-08T14:56:48.904762" level="INFO">${previous} = 24</msg>
 <var>${previous}</var>
 <arg>${number - 1}</arg>
-<status status="PASS" start="2024-11-08T09:36:05.395921" elapsed="0.007288"/>
+<status status="PASS" start="2024-11-08T14:56:48.885475" elapsed="0.019330"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.403476" level="INFO">${result} = 120</msg>
+<msg time="2024-11-08T14:56:48.905250" level="INFO">${result} = 120</msg>
 <var>${result}</var>
 <arg>${number} * ${previous}</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.403297" elapsed="0.000203"/>
+<status status="PASS" start="2024-11-08T14:56:48.904997" elapsed="0.000291"/>
 </kw>
 <kw name="Convert To String" owner="BuiltIn">
-<msg time="2024-11-08T09:36:05.403723" level="INFO">${result} = 120</msg>
+<msg time="2024-11-08T14:56:48.905815" level="INFO">${result} = 120</msg>
 <var>${result}</var>
 <arg>${result}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.403590" elapsed="0.000276"/>
+<status status="PASS" start="2024-11-08T14:56:48.905525" elapsed="0.000479"/>
 </kw>
 <return>
 <value>${result}</value>
-<status status="PASS" start="2024-11-08T09:36:05.403934" elapsed="0.000036"/>
+<status status="PASS" start="2024-11-08T14:56:48.906100" elapsed="0.000041"/>
 </return>
-<msg time="2024-11-08T09:36:05.404080" level="INFO">${result} = 120</msg>
+<msg time="2024-11-08T14:56:48.906342" level="INFO">${result} = 120</msg>
 <var>${result}</var>
 <arg>5</arg>
-<status status="PASS" start="2024-11-08T09:36:05.394428" elapsed="0.009675"/>
+<status status="PASS" start="2024-11-08T14:56:48.883474" elapsed="0.022915"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${result}</arg>
 <arg>120</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2024-11-08T09:36:05.404366" elapsed="0.000151"/>
+<status status="PASS" start="2024-11-08T14:56:48.907096" elapsed="0.000272"/>
 </kw>
-<status status="PASS" start="2024-11-08T09:36:05.393004" elapsed="0.011746"/>
+<status status="PASS" start="2024-11-08T14:56:48.881917" elapsed="0.025835"/>
 </test>
-<status status="PASS" start="2024-11-08T09:36:05.134200" elapsed="0.271672"/>
+<status status="PASS" start="2024-11-08T14:56:48.533216" elapsed="0.376500"/>
 </suite>
 <statistics>
 <total>
@@ -222,6 +222,6 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2024-11-08T09:36:05.127003" level="WARN">Error in file 'C:\Users\non17\OneDrive\เดสก์ท็อป\assingment basic\tc16.robot' on line 13: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2024-11-08T14:56:48.524399" level="WARN">Error in file 'D:\camp_new_joiner_assignment\tc16.robot' on line 11: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>

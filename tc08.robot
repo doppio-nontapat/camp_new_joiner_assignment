@@ -1,10 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
 Variables    config.yaml
-*** Variables ***
-*** Keywords ***
 *** Test Cases ***
-Test Preload Variables yaml
-    SeleniumLibrary.Open Browser    ${app_url}    chrome
-    SeleniumLibrary.Input Text    username_field    ${credentials.username}
-    SeleniumLibrary.Input Text    password_field    ${credentials.password}
+Test preload variables yaml
+    Seleniumlibrary.Open browser    ${app_url}    chrome
+    Seleniumlibrary.Input text    username_field    ${credentials.username}
+    Seleniumlibrary.Input text    password_field    ${credentials.password}

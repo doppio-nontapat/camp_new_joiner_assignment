@@ -1,13 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Greet User
+Greet user
     [Arguments]    ${name}=Guest
-    BuiltIn.Log To Console    Hello, ${name}
+    Builtin.Log to console    Hello, ${name}
 *** Test Cases ***
-Test Guest
-    Greet User    
-
-Test John
-    Greet User    John
+Test guest
+    Greet user    
+Test john
+    Greet user    John

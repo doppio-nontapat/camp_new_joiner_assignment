@@ -1,16 +1,15 @@
 *** Settings ***
 Library    SeleniumLibrary
-*** Variables ***
 *** Keywords ***
-Calculate Factorial
+Calculate factorial
     [Arguments]    ${number}
-    ${number}    BuiltIn.Convert To Integer    ${number}
-    Run Keyword If     ${number} == 1    BuiltIn.Return From Keyword     1
-    ${previous}    Calculate Factorial    ${number - 1}
-    ${result}    Evaluate    ${number} * ${previous}
-    ${result}    BuiltIn.Convert To String    ${result}
+    ${number}    Builtin.Convert to integer    ${number}
+    Builtin.Run keyword if     ${number} == 1      BuiltIn.Return From Keyword     1
+    ${previous}    Calculate factorial    ${number - 1}
+    ${result}    Builtin.Evaluate    ${number} * ${previous}
+    ${result}    Builtin.Convert to string    ${result}
     [Return]    ${result}
 *** Test Cases ***
 Test Factorial Calculation
-    ${result}    Calculate Factorial    5   
-    BuiltIn.Should Be Equal    ${result}    120
+    ${result}    Calculate factorial    5   
+    Builtin.Should be equal    ${result}    120
