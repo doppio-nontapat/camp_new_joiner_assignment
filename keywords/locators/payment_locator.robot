@@ -1,0 +1,10 @@
+*** Variables ***
+${payment_locator.btn_next}               xpath=//button[@class='css-eq3tly ant-btn ant-btn-primary ant-btn-dangerous' and @type='button']
+${payment_locator.card_number}            xpath=//input[@id='basic_bin']
+${payment_locator.expire_date}            xpath=//input[@id='basic_exp']
+${payment_locator.cv_code}                xpath=//input[@id='basic_cvc']
+${payment_locator.owner}                  xpath=//input[@id='basic_owner']
+${payment_locator.confirm}                xpath=//button[@class='css-eq3tly ant-btn ant-btn-primary button-login' and @type='submit']
+${payment_locator.btn_ok}                 xpath=//button[@class='css-eq3tly ant-btn ant-btn-primary' and @type='button']
+${payment_locator.order_des}              xpath=//div[@class='success-description']
+${payment_locator.go_home}                xpath=//span[text()='Continue Shopping']

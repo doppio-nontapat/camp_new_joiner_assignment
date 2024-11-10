@@ -1,0 +1,15 @@
+info:
+  email: a1dgcbggjjdis@gmail.com
+  password: Hbfbggbvbbjjvbcvi5as4@gmail.com
+  first_name: Andrew
+  last_name: Garfield
+  address: 135 newyork usa
+  phone: 1234567890
+
+search:
+  text: phone
+
+payment:
+  credit_card: 4111111111111111
+  expire_date: 07/2026
+  cv_code: 304
