@@ -12,6 +12,8 @@ Open demo application
     ...    appPackage=${appPackage}
     ...    appActivity=${appActivity}
     ...    automationName=${automationName}
+    ...    bundleId=${bundleId}
+    ...    udid=${udid}
 
 Close demo application    
     AppiumLibrary.Close all applications

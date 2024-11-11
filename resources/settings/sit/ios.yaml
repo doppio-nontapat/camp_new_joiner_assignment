@@ -1,7 +1,9 @@
-remote_url: http://localhost:4723/wd/hub
-deviceName: Medium Phone API 35    
-platformVersion:  "15"    
-platformName: Android    
-appPackage: com.saucelabs.mydemoapp.rn
-appActivity:  com.saucelabs.mydemoapp.rn.MainActivity   
-automationName: UiAutomator2
+remote_url: http://localhost:4723
+deviceName: Iphone 16    
+platformVersion:  "18.1"    
+platformName: iOS    
+appPackage: null
+appActivity:  null 
+automationName: XCUITest
+bundleId: com.saucelabs.mydemoapp.rn
+udid: 9CF74944-C647-4E84-A3E1-F589BBC5CC71
